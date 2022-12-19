@@ -2,6 +2,9 @@
   margin : 0;
   padding: 0;
   text-align: center;
+  height: 100vh;
+  background-color: rgb(4, 27, 27);
+  
   
 }
 .navbar{
@@ -47,6 +50,34 @@
   background-color: red;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.create-post-form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+
+}
+.create-post-form input{
+  width: 300px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 4px;
+    background-color: rgb(13 65 80);
+    color: white;
+}
+.create-post-form textarea{
+   width: 300px;
+    /* height: 35px; */
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 4px;
+    background-color: rgb(13 65 80);
+    color: white;
 }
 
 

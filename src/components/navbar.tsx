@@ -15,7 +15,12 @@ export const Navbar = () => {
         <div className='navbar-links' >
 
         <Link className='link-component' to='/' > Home </Link>
-        <Link className='link-component'  to='/login' > Login </Link>
+        {
+            !user ? 
+                <Link className='link-component'  to='/login' > Login </Link> 
+                :
+                <Link className='link-component'  to='/createpost' > Create Post </Link>
+        }       
         </div>
 
         <div className='navbar-user-info' >
